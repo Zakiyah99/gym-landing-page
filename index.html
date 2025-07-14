@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>training studio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+
+         <div class="hamburger">
+            <i class="fa-solid fa-bars" data-visible="true"></i>
+            <i class="fa-solid fa-close" data-visible="false"></i>
+        </div>
+
+
+        <div class="container">
+            <nav class="header-bar">
+
+            <h1>TRAINING <em>STUDIO</em></h1>
+
+                <div class="nav-bar">
+
+                    <a href="#home">home</a>
+        <ul>
+            
+            <li ><a href="#about">about</a></li>
+            <li><a href="#classes">classes</a></li>
+            <li><a href="#Schedules">Schedules</a></li>
+             <li><a href="#contact">contact</a></li>
+        </ul>
+
+           <button class="btn">sing up</button>
+                </div>
+
+            </nav>
+
+        </div>
+
+         <nav class="mobile-menu" data-visible="false">
+
+            <h1>TRAINING <em>STUDIO</em></h1>
+
+                <div class="nav-bar">
+
+                
+        <ul class="menus-link">
+             <li ><a href="#home">home</a></li>
+            <li ><a href="#about">about</a></li>
+            <li><a href="#classes">classes</a></li>
+            <li><a href="#Schedules">Schedules</a></li>
+             <li><a href="#contact">contact</a></li>
+        </ul>
+
+           <button class="btn">sing up</button>
+                </div>
+
+            </nav>
+    </header>
+
+
+       <script>
+        const hamburger = document.querySelector('.hamburger');
+        const mobileMenu = document.querySelector(".mobile-menu");
+        const icons = document.querySelectorAll("i");
+
+        hamburger.addEventListener("click", function (event) {
+            const isVisible = mobileMenu.getAttribute('data-visible');
+            if (isVisible == "true") {
+                // qari hiding
+                mobileMenu.setAttribute('data-visible', "false");
+                icons[0].setAttribute('data-visible', "true");
+                icons[1].setAttribute('data-visible', "false");
+            } else if (isVisible == "false") {
+                // soo bandhig showing
+                mobileMenu.setAttribute('data-visible', "true");
+                icons[0].setAttribute('data-visible', "false");
+                icons[1].setAttribute('data-visible', "true");
+            }
+        });
+
+
+    </script>
+
+
+    
+</body>
+</html>
