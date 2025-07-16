@@ -13,8 +13,12 @@ img {
   height: auto;
 }
 
+body{
+    padding: 0 1rem;
+}
+
 .container {
-  width: min(1140px, 90%);
+  width: min(1130px, 90%);
   height: 80px;
   margin: auto;
   display: flex;
@@ -128,16 +132,17 @@ header {
 
  #video-back {
     object-position: center;
+    padding: 0 1rem;
   }
 
 .linear-grandient {
   background: linear-gradient(rgba(35, 45, 57, 0.8));
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  width: 98%;
   height: 100vh;
   z-index: 0;
+  padding: 0 0rem;
 }
 
 .main-section {
@@ -153,6 +158,7 @@ header {
   top: 10rem;
   align-items: center;
   text-align: center;
+  padding: 0 1rem;
 }
 
 .caption h6 {
@@ -384,6 +390,9 @@ color: #ed563b;
   body {
     overflow-x: hidden;
   }
+  body{
+    padding: 0 1rem;
+  }
 
   .logo-icon {
     display: flex;
@@ -499,6 +508,12 @@ color: #ed563b;
     display: none;
   }
 
+  .linear-grandient{
+    width: 93%;
+    margin-right: 1rem;
+    padding: 0 0.88rem;
+  }
+
   .caption h2 {
     font-size: 32px;
     margin-top: 20px;
@@ -586,5 +601,40 @@ color: #ed563b;
   .caption-3 {
     padding: 0 1rem;
   }
+.section4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .training-section,
+  .content-bar {
+    width: 100%;     
+    margin: 0.3rem;
+    padding: 1rem;
+    
+  }
+
+  .class-item {
+    flex-direction: row;
+    align-items: center;
+    max-width: 95%;
+    height: auto;
+    
+  }
+
+  .training-section .btn,
+  .content-bar .btn {
+    width: 95%;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .content-bar img {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+  
 
 }
