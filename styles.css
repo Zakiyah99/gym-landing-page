@@ -298,7 +298,7 @@ span {
     display: flex;
 }
 .training-section{
-    height: 880%;
+    height: 88%;
     width: 33%;
     margin-left: 11.5rem;
     background-color: #fff;
@@ -382,6 +382,128 @@ color: #ed563b;
     font-weight: 400;
     text-align: center;
 }
+.section5{
+    align-items: center;
+    justify-content: center;
+    background: url(https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg) center no-repeat;
+    padding: 2rem;
+    
+}
+
+.section5 .section-heading {
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.section5 .section-heading h2{
+    color: #fff;
+    padding: 1rem;
+}
+
+.section5 .section-heading p{
+    color: #fff;
+    padding: 1rem;
+}
+
+.section5 .section-heading h5{
+    font-size: 15px;
+    padding: 20px;
+    font-weight: 300;
+}
+
+.section5 .TABLE {
+    margin-left: 15%;
+    padding: 0.5rem;
+}
+
+.table-head-body{
+    color: #fff;
+    border: 2px solid #ccc;
+    padding: 30px;
+    
+}
+
+.table-head-body td{
+    padding: 7px;
+    height: 100px;
+    width: 20%;
+    border: 1px solid #ccc;
+    
+}
+
+.section-heading{
+    text-align: center;
+    margin: 3rem;
+}
+
+.contact-container{
+    display: flex;
+    height: 100vh;
+    width: 98vw;
+}
+
+.map{
+  width: 50%;
+  height: 100%;
+  
+  
+}
+
+.contact-container .border{
+     background: url(https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg) center;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.contact-form{
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 6rem;
+    width: 80%;
+    height: 60%;
+    padding: 2rem;
+
+
+}
+
+#name{
+    width: 40%;
+    padding: 8px;
+    margin: 1rem;
+}
+#email{
+    width: 40%;
+    padding: 8px;
+    margin: 1rem;
+}
+
+#subject{
+    width: 80%;
+    padding: 8px;
+    margin: 1rem;
+}
+#message{
+    width: 80%;
+    padding: 8px;
+    margin: 1rem;
+
+}
+
+.site-footer{
+    text-align: center;
+    font-size: 14PX;
+    color: #232d39;
+    margin: 1rem;
+    padding: 1rem;
+}
+ #templatemo {
+    font-size: 14px;
+    font-weight: 400;
+}
 
 
 
@@ -390,8 +512,9 @@ color: #ed563b;
   body {
     overflow-x: hidden;
   }
+  
   body{
-    padding: 0 1rem;
+    padding: 0 0;
   }
 
   .logo-icon {
@@ -509,8 +632,8 @@ color: #ed563b;
   }
 
   .linear-grandient{
-    width: 93%;
-    margin-right: 1rem;
+    width: 96%;
+    margin-left: 1rem;
     padding: 0 0.88rem;
   }
 
@@ -619,7 +742,6 @@ color: #ed563b;
     flex-direction: row;
     align-items: center;
     max-width: 95%;
-    height: auto;
     
   }
 
@@ -635,6 +757,69 @@ color: #ed563b;
     height: auto;
     margin-top: 1rem;
   }
+
+  .section5 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; 
+    width: 100vw;
+    padding: 2rem 1rem;
+
+  }
+
+  .section5 .TABLE {
+    margin-left: 0;
+    margin-right: 4rem;
+    width: 100%;
+  }
+
+  .table-head-body {
+    padding: 1rem;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  .table-head-body table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table-head-body td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    color: #fff;
+  }
+
+  .table{
+    width: 80%;
+  }
+
+  .contact-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+  }
+
+  .contact-container .map{
+    width: 100%;
+    height: 100vh;
+  }
+  .contact-container .border{
+    width: 100%;
+  }
+
+  .contact-container .contact-form{
+    width: 80%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
   
 
 }
