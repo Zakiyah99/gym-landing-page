@@ -437,6 +437,45 @@ color: #ed563b;
     margin: 3rem;
 }
 
+
+.section6{
+    display: flex;
+    gap: 0.5rem;
+    margin-left:10%;
+    margin-bottom: 2rem;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section6-box{
+    padding: 3rem;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 1rem;
+    width: 30%;
+}
+.section6-box h3{
+    font-size: 1.22rem;
+    font-weight: 600;
+    padding: 5px;
+
+}
+
+.section6-box p{
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+
+.section6 .icons{
+ justify-content: space-between;
+ padding: 5px;
+}
+
+
 .contact-container{
     display: flex;
     height: 100vh;
@@ -796,6 +835,16 @@ color: #ed563b;
     width: 80%;
   }
 
+.section6{
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .section6-box{
+    width: 90%;
+  }
+
   .contact-container{
     display: grid;
     grid-template-columns: 1fr;
@@ -814,12 +863,26 @@ color: #ed563b;
 
   .contact-container .contact-form{
     width: 80%;
-    height: 70%;
+    height: 80%;
     justify-content: center;
     align-items: center;
+    margin: 3rem;
   }
 
-  
+  #name{
+    width: 100%;
+    margin: 1rem;
+  }
+  #email{
+    width: 100%;
+    margin: 1rem;
+  }
+  #subject{
+    width: 100%;
+    margin: 1rem;
+  }
+
+ 
   
 
 }
